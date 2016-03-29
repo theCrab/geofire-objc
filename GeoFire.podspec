@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/firebase/geofire-objc"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Firebase" => "support@firebase.com" }
-  s.source       = { :git => "https://github.com/firebase/geofire-objc.git", :tag => 'v1.1.2' }
+  s.source       = { :git => "https://github.com/theCrab/geofire-objc.git", :tag => s.version }
   s.source_files = "GeoFire/**/*.{h,m}"
   s.docset_url   = "https://geofire-ios.firebaseapp.com/docs/"
   s.ios.deployment_target = '7.0'
